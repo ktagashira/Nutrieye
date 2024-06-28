@@ -8,3 +8,5 @@ LINE_CHANNEL_ACCESS_TOKEN = environ.get(
     "",
 )
 LINE_CHANNEL_SECRET = environ.get("LINE_CHANNEL_SECRET", "")
+
+OPENAI_API_KEY = environ.get("OPENAI_API_KEY", "")
